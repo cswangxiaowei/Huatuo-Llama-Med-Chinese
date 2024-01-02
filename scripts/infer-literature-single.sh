@@ -7,7 +7,7 @@
 """单轮"""
 python infer_literature.py \
     --base_model 'decapoda-research/llama-7b-hf' \
-    --lora_weights '/content/drive/MyDrive/lora-llama-med' \
+    --lora_weights '/content/drive/MyDrive/lora-llama-literature' \
     --single_or_multi 'single' \
     --use_lora True \
     --prompt_template 'literature_template'
